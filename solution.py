@@ -30,9 +30,15 @@ text = text.replace('-', '')
 print(text)
 
 
+# EXTRA
+text = "---Python --- programming---"
+print(f'{text[0:9]}{text[13:]}')
+
+
+
 # T7
 firstname = "Johannes"
-lastname = "Gohl"
-list = firstname, lastname
+lastname = "gohl"
+list = firstname, lastname.capitalize()
 
 print(f'Firstname: {list[0]} \nLastname: {list[1]}')
